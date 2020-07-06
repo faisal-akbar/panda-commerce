@@ -1,0 +1,113 @@
+.container {
+  margin-bottom: 45px;
+}
+
+/* Carousel */
+.orange-bg {
+  background-color: #fceae8;
+  border-radius: 10px;
+}
+
+.carousel-item {
+  padding: 20px 40px;
+}
+
+.price {
+  color: #ff136f;
+}
+
+.buy-now-btn {
+  background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 25px;
+  cursor: pointer;
+}
+
+/* Categories */
+.cat1,
+.cat2,
+.cat3 {
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+.cat1 {
+  background-image: linear-gradient(135deg, #ff9c35 0%, #ffd019 100%);
+}
+
+.cat2 {
+  background-image: linear-gradient(90deg, #ff136f 0%, #ff589b 100%);
+}
+
+.cat3 {
+  background-image: linear-gradient(90deg, #4289ff 0%, #3f07f8 100%);
+}
+
+.categories h1 {
+  color: #fff;
+}
+
+.categories img {
+  width: 100px;
+}
+
+/* Shoes and Backpack*/
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px lightgray;
+}
+
+.card-footer {
+  border: none;
+  background-color: #fff;
+}
+
+/* Subscribe */
+#subscribe {
+  height: 300px;
+}
+
+#subscribe h6 {
+  color: grey;
+}
+
+#subscribe .buy-now-btn {
+  margin: 10px 0;
+}
+
+/* footer */
+footer {
+  text-align: center;
+}
+
+/* Search */
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .search-wd {
+    width: 100%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .search-wd {
+    width: 100%;
+  }
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .search-wd {
+    width: 35%;
+  }
+}
+
+/*  Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .search-wd {
+    width: 35%;
+  }
+}
